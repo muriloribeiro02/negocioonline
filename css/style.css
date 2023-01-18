@@ -3,17 +3,17 @@
     padding: 0;
 }
 .container{
-    background-image: url("	https://s39.aconvert.com/convert/p3r68-cdx67/8tbyy-cbkis.jpg");
-    background-size:540px;
+    background-image: url("https://www.etice.ce.gov.br/wp-content/uploads/sites/5/2019/07/Inova%C3%A7%C3%A3o-Tecnologica-600x375.jpg");
+    background-size:840px;
     background-position: center;
-    height: 540px;
+    height: 520px;
     width: 100%;
    
 }
 .chamada{
-   background-color: rgba(0, 0, 0, 0.8);
+   background-color: rgba(50, 50, 100, 0.7);
    position:relative;
-   height: 540px;
+   height: 520px;
    width: 100%;
 
 }
@@ -48,14 +48,18 @@
 }
 .demonstrative-img{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
 }
 .demonstrative-img img{
-    width: 500px;
-    height: 500px;
-    margin-bottom: 50px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 90px;
+    border-radius: 300px;
+    margin-right: 100px;
 }
+
+
 .place-black{
     background-color: #000;
 }
