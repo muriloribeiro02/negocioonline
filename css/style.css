@@ -4,14 +4,14 @@
 }
 .container{
     background-image: url("https://www.etice.ce.gov.br/wp-content/uploads/sites/5/2019/07/Inova%C3%A7%C3%A3o-Tecnologica-600x375.jpg");
-    background-size:840px;
-    background-position: center;
-    height: 520px;
+    background-size:100%;
+    background-position:100%;
+    height: 100%;
     width: 100%;
    
 }
 .chamada{
-   background-color: rgba(50, 50, 100, 0.7);
+   background-color: rgba(0, 0, 0, 0.7);
    position:relative;
    height: 520px;
    width: 100%;
@@ -73,4 +73,51 @@
     font-size: 50px;
     font-family: 'Raleway', sans-serif;
 
+}
+.divulgação{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.txt-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fc0fc0;
+    font-size: 30px;
+    font-family:'Raleway', sans-serif;
+    margin-top: 20px;
+}
+.loader{
+    border:16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #9e00ff;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /*Safari*/
+    animation: spin 2s linear infinite;
+    margin: auto;
+    margin-top: 50px;
+}
+/*Safari*/
+@-webkit-keyframes spin{
+    0% {-webkit-transform: rotate(0deg);}
+    100% {-webkit-transform: rotate(360deg);}
+}
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+.txt-loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:'Raleway', sans-serif ;
+    color: #993399;
 }
